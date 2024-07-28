@@ -1,48 +1,34 @@
+<h1>Zerodha Website</h1>
+This project is a React-based web application for Zerodha, a comprehensive trading platform offering real-time stock market data, intuitive navigation, and advanced trading features.
 
-    <h1>Zerodha Website</h1>
-    <p>This project is a React-based web application for Zerodha, a comprehensive trading platform offering real-time stock market data, intuitive navigation, and advanced trading features.</p>
-
-    <h2>Table of Contents</h2>
-    <ul>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#installation">Installation</a></li>
-        <li><a href="#usage">Usage</a></li>
-        <li><a href="#contributing">Contributing</a></li>
-        <li><a href="#license">License</a></li>
-    </ul>
-
-    <h2 id="features">Features</h2>
-    <ul>
-        <li>Real-time stock market data</li>
-        <li>Intuitive and responsive navigation</li>
-        <li>Optimized for performance with quick load times</li>
-        <li>Clean and modern design</li>
-        <li>Portfolio management and in-depth analytics</li>
-    </ul>
-
-    <h2 id="installation">Installation</h2>
-    <ol>
-        <li>Clone the repository:
-            <pre><code>git clone https://github.com/Subhrajit-14/zerodha-Clone.git</code></pre>
-        </li>
-        <li>Navigate to the project directory:
-            <pre><code>cd zerodha-Clone</code></pre>
-        </li>
-        <li>Install the dependencies:
-            <pre><code>npm install</code></pre>
-        </li>
-    </ol>
-
-    <h2 id="usage">Usage</h2>
-    <ol>
-        <li>Start the development server:
-            <pre><code>npm start</code></pre>
-        </li>
-        <li>Open your browser and navigate to <a href="http://localhost:3000" target="_blank">http://localhost:3000</a>.</li>
-    </ol>
-
-    <h2 id="license">License</h2>
-    <p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for more details.</p>
-
-    <hr>
-    <p>Feel free to reach out if you have any questions or suggestions!</p>
+<h2>Table of Contents</h2>
+Features
+Installation<br>
+Usage<br>
+Contributing<br>
+License<br>
+<h3>Features</h3>
+Real-time stock market data<br>
+Intuitive and responsive navigation<br>
+Optimized for performance with quick load times<br>
+Clean and modern design<br>
+Portfolio management and in-depth analytics<br>
+<h3>Installation</h3>
+Clone the repository:
+bash
+Copy code
+git clone https://github.com/Subhrajit-14/zerodha-CLone.git<br>
+Navigate to the project directory:
+bash
+Copy code
+cd zerodha-website<br>
+Install the dependencies:
+bash
+Copy code
+npm install
+Usage<br>
+Start the development server:
+bash
+Copy code
+npm start
+Open your browser and navigate to http://localhost:3000.
