@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zerodha Website</title>
-</head>
-<body>
+
     <h1>Zerodha Website</h1>
     <p>This project is a React-based web application for Zerodha, a comprehensive trading platform offering real-time stock market data, intuitive navigation, and advanced trading features.</p>
 
@@ -53,5 +46,3 @@
 
     <hr>
     <p>Feel free to reach out if you have any questions or suggestions!</p>
-</body>
-</html>
