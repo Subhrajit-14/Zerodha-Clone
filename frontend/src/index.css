@@ -1,0 +1,210 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.nav-link{
+  margin-left: 40px;
+}
+/*login css*/
+& .login-form {
+  & label {
+    display: block;
+    margin: 2.4rem 0 0.8rem 0;
+    text-transform: capitalize;
+  }
+  & input {
+    width: 80%;
+    padding: 0.6rem 0.6rem;
+  }
+
+  & button {
+    margin-top: 3.2rem;
+  }
+}
+
+
+.section-registration {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.grid-two-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+/* Registration Form Styles */
+.registration-form {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form .main-heading {
+  font-size: 2rem;
+  color: #333333;
+}
+
+.registration-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.registration-form input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.registration-form .btn-submit {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.registration-form .btn-submit:hover {
+  background-color: #0056b3;
+}
+
+
+/* error page  */
+#error-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#error-page .content {
+  max-width: 70rem;
+  text-align: center;
+}
+
+.content h2.header {
+  font-size: 18vw;
+  line-height: 1em;
+  animation: animate 10s ease-in-out infinite;
+  background: -webkit-repeating-linear-gradient(
+    -60deg,
+    #71b7e6,
+    #3498db,
+    #b98acc,
+    #ee8176,
+    #b98acc,
+    #3498db,
+    #9b59b6
+  );
+  background-size: 500%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.25);
+  position: relative;
+  -webkit-animation: animate 10s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0 0;
+  }
+  25% {
+    background-position: 100% 0;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  75% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+.content h4 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.content .btns {
+  margin: 25px 0;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.content .btns a {
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  border: 2px solid #3498db;
+  color: #3498db;
+  font-weight: 500;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.content .btns a:hover {
+  color: blue;
+}
+/* Support */
+#supportlinks a{
+  color: white;
+  font-size: 17px;
+  text-decoration: underline;
+text-underline-position:under ;
+padding: 10px;
+font-weight: normal;
+}
+#secondcolom h5 a {
+  text-decoration: none;
+      color: white;
+      font-weight: normal;
+  }
+  #secondcolom li {
+      
+          color: white;
+          font-weight: normal;
+      
+      }
+      #secondcolom li a{
+      font-size: 17px;
+          color: white;
+          font-weight: normal;
+          line-height: 50px;
+      }
+      #supportbody h5 a{
+          text-decoration: none;
+          color: rgb(68,68,68);
+  
+      }
+      #supportbody1 h5 a{
+          text-decoration: none;
+          color: rgb(68,68,68);
+      }
+
+      

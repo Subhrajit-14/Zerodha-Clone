@@ -1,0 +1,10 @@
+.text-muted-hover {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+  }
+  
+  .text-muted-hover:hover {
+    color: #0056b3; /* Choose a color for the hover effect */
+  }
+  
