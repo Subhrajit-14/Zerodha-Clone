@@ -14,7 +14,7 @@ export const Signup = () => {
   const navigate = useNavigate();
   const { storeTokenInLS} = useAuth();
 
-  const URL = `http://localhost:3002/api/auth/register`;
+  const URL = `${process.env.REACT_APP_BACKEND_URL}/api/auth/register`;
 
   // handling the input values
   const handleInput = (e) => {

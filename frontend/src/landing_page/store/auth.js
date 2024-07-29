@@ -27,7 +27,7 @@ export const AuthProvider = ({ children }) => {
   const userAuthentication = async () => {
     try {
       setIsLoading(true);
-      const response = await fetch(`http://localhost:3002/api/auth/user`, {
+      const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/auth/user`, {
         method: "GET",
         headers: {
           Authorization: authorizationToken,

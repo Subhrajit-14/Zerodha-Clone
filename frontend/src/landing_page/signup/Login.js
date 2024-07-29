@@ -12,7 +12,7 @@ export const Login = () => {
   const navigate = useNavigate();
   const { storeTokenInLS} = useAuth();
 
-  const URL = `http://localhost:3002/api/auth/login`;
+  const URL = `${process.env.REACT_APP_BACKEND_URL}/api/auth/login`;
 
   const handleInput = (e) => {
     let name = e.target.name;

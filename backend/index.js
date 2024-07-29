@@ -15,9 +15,8 @@ const app = express();
 const router = require("./router/auth-router");
 const errorMiddleware = require("./middlewares/error.middleware");
 
-
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: [process.env.FRONTEND_URL,process.env.DASHBOARD_URL],
   methods: "GET , POST, PUT, DELETE, PATCH, HEAD",
   credentials: true,
 };
