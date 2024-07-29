@@ -32,3 +32,7 @@ bash
 Copy code
 npm start
 Open your browser and navigate to http://localhost:3000.
+
+
+Author : Subhrajit Swain
+Gmail: subhrajitswain1678@gmail.com
